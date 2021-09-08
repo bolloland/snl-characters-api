@@ -11,5 +11,5 @@ myers = Member.create(first: "Mike", last: "Myers", joined: "1989", left: "1995"
 wiig = Member.create(first: "Kristen", last: "Wiig", joined: "2005", left: '2002', img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/KristenWiigTime100May08.jpg/150px-KristenWiigTime100May08.jpg')
 
 Character.create([
-    {name: "", }
+    {name: "Julia Child", debut: "December 09, 1978", review: "Save the liver!", image: "https://media.giphy.com/media/l2SpN3XUONJkjTx7i/giphy.gif?cid=790b761170c2a4b756b44121e75126c6ffd1bac3a9bd5f55&rid=giphy.gif&ct=g", likes: "0", member_id: "1"}
 ])
