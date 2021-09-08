@@ -17,6 +17,7 @@ SNL Character
 
 Thanks to: 
 https://snltranscripts.jt.org/
+https://snl.fandom.com/wiki/Saturday_Night_Live_Wiki
 
 
 This README would normally document whatever steps are necessary to get the
