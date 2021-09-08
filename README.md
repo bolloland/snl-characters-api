@@ -15,6 +15,9 @@ SNL Character
 - Individual appearances (by guest host & date)
 - Likes
 
+Thanks to: 
+https://snltranscripts.jt.org/
+
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
