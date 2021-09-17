@@ -10,7 +10,7 @@ class CharactersController < ApplicationController
 
   # GET /characters/1
   def show
-    render json: character
+    render json: @character
   end
 
   # POST /characters
@@ -27,22 +27,22 @@ class CharactersController < ApplicationController
   # PATCH/PUT /characters/1
   def update
     if character.update(character_params)
-      render json: character
+      render json: @character
     else
-      render json: character.errors, status: :unprocessable_entity
+      render json: @character.errors, status: :unprocessable_entity
     end
   end
 
   # DELETE /characters/1
   def destroy
-    character.destroy
+    @character.destroy
     render json: {message: "You deleted this character."}
   end
 
   private
     # Use callbacks to share common setup or constraints between actions.
     def set_character
-      character = Character.find(params[:id])
+      @character = Character.find(params[:id])
     end
 
     # Only allow a list of trusted parameters through.
