@@ -4,7 +4,7 @@ class MembersController < ApplicationController
   # GET /members
   def index
     members = Member.all
-
+# conditional rendering
     render json: members, except: [:created_at, :updated_at], include: [characters: {except: [:created_at, :updated_at]}]
 
   end
