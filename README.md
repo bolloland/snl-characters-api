@@ -1,4 +1,7 @@
-# LIVE from New York...We're building an SNL Character List, including a ranking system, reviews of the best sketches with that character, and a constant real-time list of the Top 5 characters on SNL. 
+# LIVE from New York...We're building an SNL Character Database, based on the cast members that created them! 
+
+At the moment, we're able to create new Members, look at their characters and give Likes based on our love for them.
+Future goals for this app include: a ranking system, detailed info about cast members and characters alike reviews of the best sketches with that character, and a constantly updating real-time list of the Top 5 characters on SNL. 
 
 Models:
 
@@ -15,30 +18,23 @@ SNL Character
 - Individual appearances (by guest host & date)
 - Likes
 
+# To View: 
+Clone this repo as well as the one found here: 
+https://github.com/bolloland/snl-characters-frontend
+
+From this repo (API) in your terminal: 
+ - rake db:migrate
+ - rake db:seed
+ - rails s
+
+ From the other repo (FRONTEND):
+ - open ./index.html
+ OR 
+ - right click on the index.html in your side menu and open in your browser. 
+
+
 Thanks to: 
 https://snltranscripts.jt.org/
 https://snl.fandom.com/wiki/Saturday_Night_Live_Wiki
 
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
