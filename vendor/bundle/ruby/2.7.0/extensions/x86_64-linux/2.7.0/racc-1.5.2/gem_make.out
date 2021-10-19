@@ -1,5 +1,5 @@
 current directory: /home/bollo/code/labs/Mod4/js-project/snl_characters_api/vendor/bundle/ruby/2.7.0/gems/racc-1.5.2/ext/racc/cparse
-/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20211005-23084-15st2qi.rb extconf.rb
+/usr/bin/ruby2.7 -I /usr/lib/ruby/2.7.0 -r ./siteconf20211011-31167-13wh3n2.rb extconf.rb
 mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
 
 You might have to install separate package for the ruby development
